@@ -1,6 +1,6 @@
 # iocode-jwt-spring-security
 This Repository is one that contains a semi completed application with codes mainly focused on the security aspect of the application using spring security and integrating Jwts
-To follow along with the video tutorial clone the repo of the branch start ( git clone --single-branch start https://github.com/iocods/iocode-jwt-spring-security.git ) and get started then add the following dependency below to the pom.xml file when you've gotten to that part of the video
+To follow along with the video tutorial clone the repo of the branch start ( git clone -b start --single-branch https://github.com/iocods/iocode-jwt-spring-security.git ) and get started then add the following dependency below to the pom.xml file when you've gotten to that part of the video
 
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
