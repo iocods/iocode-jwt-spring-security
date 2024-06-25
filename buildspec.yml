@@ -7,8 +7,10 @@ phases:
   post_build:
     commands:
       - echo Build complete.
+      - echo changing directory
+      - cd ./target
       - ls -l
 artifacts:
   files:
-    - target/student-app.jar
+    - ./target/student-app.jar
   discard-paths: yes
