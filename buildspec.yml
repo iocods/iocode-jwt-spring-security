@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo Packaging JAR file...
+      - mvn clean package
+  post_build:
+    commands:
+      - echo Build complete.
+artifacts:
+  files:
+    - target/student-app.jar
+  discard-paths: yes
